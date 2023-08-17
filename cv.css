@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #868686;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #d3d1d157;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap
+}
+.logo img {
+    width: 50px;
+    height: auto;
+}
+nav {
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    /* margin: 0 auto; */
+    padding: 0 20px;
+}
+.menu li {
+    display: inline;
+    margin: 0 10px;
+    /* float:right; */
+}
+.menu a {
+    color: rgb(7, 2, 2);
+    text-decoration: none;
+}
+.menu a:hover {
+    color: #00ad5f;
+    transition: 0.5s;
+}
+.contact-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #00ad5f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.contact-btn:hover {
+    background-color: #005e34;
+}
+
+section.cv {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: rgb(50, 65, 54);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.image img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.info h1 {
+    color: #007f46;
+}
+
+.info h2 {
+    color: #007f46;
+    margin-top: 10px;
+}
+
+.info p {
+    color: rgb(3, 1, 1);
+    margin: 5px 0;
+}
+.info-p {
+    bottom: 20px;
+}
+.download-button {
+    object-position: center;
+    top: 40px;
+    margin: 120px auto;
+    padding: 10px 20px;
+    /* margin-top: */
+    background-color: #edf7ed;
+    color: rgb(12, 9, 9);
+    text-decoration:wavy;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+}
+
+.download-button:hover {
+    background-color: #1366415d;
+}
+.download{
+    margin-top: 50px;
+}
